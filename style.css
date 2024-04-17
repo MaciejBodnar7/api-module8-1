@@ -4,14 +4,39 @@
 body {
   font-family: "Roboto", sans-serif;
   margin: 0;
+  color: white;
+  background-color: #0f0f0f;
 }
 .container {
   max-width: 560px;
   width: 96%;
   margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
 }
 .h4-hard {
   font-weight: 400;
   background-color: bisque;
-  padding: 0.5em;
+  padding: 1em;
+  border-radius: 10em;
+  width: fit-content;
+  color: #404040;
+  font-weight: 600;
+}
+.btn {
+  align-self: flex-start;
+  padding: 1em 2em;
+  font-size: 0.85rem;
+  border-radius: 10em;
+  border: 0;
+  background-color: darkslateblue;
+  color: white;
+  font-weight: 900;
+  letter-spacing: 0.04rem;
+  outline: bisque 0px solid;
+  transition: outline 0.2s;
+}
+.btn:hover {
+  outline: bisque 0.4em solid;
 }
