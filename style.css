@@ -1,0 +1,17 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+}
+.container {
+  max-width: 560px;
+  width: 96%;
+  margin: 0 auto;
+}
+.h4-hard {
+  font-weight: 400;
+  background-color: bisque;
+  padding: 0.5em;
+}
